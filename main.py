@@ -47,6 +47,8 @@ for uploaded_file in uploaded_files:
 
 
 check = st.sidebar.button('3. 开始检测(begin check)',key = "on_checked")
+check = st.sidebar.button('3. 开始检测(begin check)',key = "on_checked1")
+
 
 if(check):
     if "on_check" not in st.session_state:
